@@ -1,3 +1,7 @@
+fetch('https://thinkful-list-api.herokuapp.com/ei-student/items')
+  .then(res => res.json())
+  .then(data => console.log(data));
+
 import $ from 'jquery';
 
 import 'normalize.css';
